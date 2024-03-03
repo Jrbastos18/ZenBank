@@ -1,0 +1,14 @@
+D:\Microsoft Visual Studio\Projetos\ZenBank\ZenBank\bin\Debug\net8.0\ZenBank.exe
+D:\Microsoft Visual Studio\Projetos\ZenBank\ZenBank\bin\Debug\net8.0\ZenBank.deps.json
+D:\Microsoft Visual Studio\Projetos\ZenBank\ZenBank\bin\Debug\net8.0\ZenBank.runtimeconfig.json
+D:\Microsoft Visual Studio\Projetos\ZenBank\ZenBank\bin\Debug\net8.0\ZenBank.dll
+D:\Microsoft Visual Studio\Projetos\ZenBank\ZenBank\bin\Debug\net8.0\ZenBank.pdb
+D:\Microsoft Visual Studio\Projetos\ZenBank\ZenBank\obj\Debug\net8.0\ZenBank.GeneratedMSBuildEditorConfig.editorconfig
+D:\Microsoft Visual Studio\Projetos\ZenBank\ZenBank\obj\Debug\net8.0\ZenBank.AssemblyInfoInputs.cache
+D:\Microsoft Visual Studio\Projetos\ZenBank\ZenBank\obj\Debug\net8.0\ZenBank.AssemblyInfo.cs
+D:\Microsoft Visual Studio\Projetos\ZenBank\ZenBank\obj\Debug\net8.0\ZenBank.csproj.CoreCompileInputs.cache
+D:\Microsoft Visual Studio\Projetos\ZenBank\ZenBank\obj\Debug\net8.0\ZenBank.dll
+D:\Microsoft Visual Studio\Projetos\ZenBank\ZenBank\obj\Debug\net8.0\refint\ZenBank.dll
+D:\Microsoft Visual Studio\Projetos\ZenBank\ZenBank\obj\Debug\net8.0\ZenBank.pdb
+D:\Microsoft Visual Studio\Projetos\ZenBank\ZenBank\obj\Debug\net8.0\ZenBank.genruntimeconfig.cache
+D:\Microsoft Visual Studio\Projetos\ZenBank\ZenBank\obj\Debug\net8.0\ref\ZenBank.dll
