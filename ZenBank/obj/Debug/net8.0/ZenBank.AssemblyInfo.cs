@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZenBank")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b07ffae5017964d57c14f957ccdadc20b444d216")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZenBank")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZenBank")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

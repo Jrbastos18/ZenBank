@@ -12,3 +12,4 @@ D:\Microsoft Visual Studio\Projetos\ZenBank\ZenBank\obj\Debug\net8.0\refint\ZenB
 D:\Microsoft Visual Studio\Projetos\ZenBank\ZenBank\obj\Debug\net8.0\ZenBank.pdb
 D:\Microsoft Visual Studio\Projetos\ZenBank\ZenBank\obj\Debug\net8.0\ZenBank.genruntimeconfig.cache
 D:\Microsoft Visual Studio\Projetos\ZenBank\ZenBank\obj\Debug\net8.0\ref\ZenBank.dll
+D:\Microsoft Visual Studio\Projetos\ZenBank\ZenBank\obj\Debug\net8.0\ZenBank.sourcelink.json
