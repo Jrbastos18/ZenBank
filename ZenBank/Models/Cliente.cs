@@ -7,8 +7,13 @@ using System.Threading.Tasks;
 namespace ZenBank.Models;
 public class Cliente
 {
-    public int Id { get; set; }
+    private int Id { get; set; }
     public string Endereco { get; set; }
     public string Telefone { get; set; }
 
+    public Cliente(string endereco, string telefone)
+    {
+        Endereco = endereco;
+        Telefone = telefone;
+    }
 }

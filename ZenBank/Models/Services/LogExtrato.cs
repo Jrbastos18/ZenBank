@@ -18,7 +18,8 @@ public class LogExtrato
 
     public override string ToString()
     {
-        return Tipo
+        return "\n"
+            + Tipo
             + ": "
             + Valor.ToString("C2")
             + ", Data: "

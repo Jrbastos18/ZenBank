@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "D:\\Microsoft Visual Studio\\Projetos\\ZenBank\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BFD6DA30-6831-4A3B-A83F-3929CF3CD066}|ZenBank\\ZenBank.csproj|d:\\microsoft visual studio\\projetos\\zenbank\\zenbank\\models\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFD6DA30-6831-4A3B-A83F-3929CF3CD066}|ZenBank\\ZenBank.csproj|solutionrelative:zenbank\\models\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFD6DA30-6831-4A3B-A83F-3929CF3CD066}|ZenBank\\ZenBank.csproj|d:\\microsoft visual studio\\projetos\\zenbank\\zenbank\\models\\pessoajuridica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD6DA30-6831-4A3B-A83F-3929CF3CD066}|ZenBank\\ZenBank.csproj|solutionrelative:zenbank\\models\\pessoajuridica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFD6DA30-6831-4A3B-A83F-3929CF3CD066}|ZenBank\\ZenBank.csproj|d:\\microsoft visual studio\\projetos\\zenbank\\zenbank\\models\\services\\logextrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFD6DA30-6831-4A3B-A83F-3929CF3CD066}|ZenBank\\ZenBank.csproj|solutionrelative:zenbank\\models\\services\\logextrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFD6DA30-6831-4A3B-A83F-3929CF3CD066}|ZenBank\\ZenBank.csproj|d:\\microsoft visual studio\\projetos\\zenbank\\zenbank\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD6DA30-6831-4A3B-A83F-3929CF3CD066}|ZenBank\\ZenBank.csproj|solutionrelative:zenbank\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD6DA30-6831-4A3B-A83F-3929CF3CD066}|ZenBank\\ZenBank.csproj|d:\\microsoft visual studio\\projetos\\zenbank\\zenbank\\models\\pessoafisica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD6DA30-6831-4A3B-A83F-3929CF3CD066}|ZenBank\\ZenBank.csproj|solutionrelative:zenbank\\models\\pessoafisica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD6DA30-6831-4A3B-A83F-3929CF3CD066}|ZenBank\\ZenBank.csproj|d:\\microsoft visual studio\\projetos\\zenbank\\zenbank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD6DA30-6831-4A3B-A83F-3929CF3CD066}|ZenBank\\ZenBank.csproj|solutionrelative:zenbank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFD6DA30-6831-4A3B-A83F-3929CF3CD066}|ZenBank\\ZenBank.csproj|d:\\microsoft visual studio\\projetos\\zenbank\\zenbank\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFD6DA30-6831-4A3B-A83F-3929CF3CD066}|ZenBank\\ZenBank.csproj|solutionrelative:zenbank\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFD6DA30-6831-4A3B-A83F-3929CF3CD066}|ZenBank\\ZenBank.csproj|d:\\microsoft visual studio\\projetos\\zenbank\\zenbank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFD6DA30-6831-4A3B-A83F-3929CF3CD066}|ZenBank\\ZenBank.csproj|solutionrelative:zenbank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFD6DA30-6831-4A3B-A83F-3929CF3CD066}|ZenBank\\ZenBank.csproj|d:\\microsoft visual studio\\projetos\\zenbank\\zenbank\\models\\services\\logextrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD6DA30-6831-4A3B-A83F-3929CF3CD066}|ZenBank\\ZenBank.csproj|solutionrelative:zenbank\\models\\services\\logextrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFD6DA30-6831-4A3B-A83F-3929CF3CD066}|ZenBank\\ZenBank.csproj|d:\\microsoft visual studio\\projetos\\zenbank\\zenbank\\models\\enums\\tipotransacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,6 +33,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{BFD6DA30-6831-4A3B-A83F-3929CF3CD066}|ZenBank\\ZenBank.csproj|d:\\microsoft visual studio\\projetos\\zenbank\\zenbank\\models\\contacorrente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFD6DA30-6831-4A3B-A83F-3929CF3CD066}|ZenBank\\ZenBank.csproj|solutionrelative:zenbank\\models\\contacorrente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD6DA30-6831-4A3B-A83F-3929CF3CD066}|ZenBank\\ZenBank.csproj|d:\\microsoft visual studio\\projetos\\zenbank\\zenbank\\models\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD6DA30-6831-4A3B-A83F-3929CF3CD066}|ZenBank\\ZenBank.csproj|solutionrelative:zenbank\\models\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,17 +46,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "Conta.cs",
               "DocumentMoniker": "D:\\Microsoft Visual Studio\\Projetos\\ZenBank\\ZenBank\\Models\\Conta.cs",
               "RelativeDocumentMoniker": "ZenBank\\Models\\Conta.cs",
               "ToolTip": "D:\\Microsoft Visual Studio\\Projetos\\ZenBank\\ZenBank\\Models\\Conta.cs",
               "RelativeToolTip": "ZenBank\\Models\\Conta.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAUwFsAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-03T01:43:29.953Z",
               "IsPinned": true,
@@ -52,7 +64,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "PessoaJuridica.cs",
+              "DocumentMoniker": "D:\\Microsoft Visual Studio\\Projetos\\ZenBank\\ZenBank\\Models\\PessoaJuridica.cs",
+              "RelativeDocumentMoniker": "ZenBank\\Models\\PessoaJuridica.cs",
+              "ToolTip": "D:\\Microsoft Visual Studio\\Projetos\\ZenBank\\ZenBank\\Models\\PessoaJuridica.cs",
+              "RelativeToolTip": "ZenBank\\Models\\PessoaJuridica.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T03:24:32.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PessoaFisica.cs",
+              "DocumentMoniker": "D:\\Microsoft Visual Studio\\Projetos\\ZenBank\\ZenBank\\Models\\PessoaFisica.cs",
+              "RelativeDocumentMoniker": "ZenBank\\Models\\PessoaFisica.cs",
+              "ToolTip": "D:\\Microsoft Visual Studio\\Projetos\\ZenBank\\ZenBank\\Models\\PessoaFisica.cs",
+              "RelativeToolTip": "ZenBank\\Models\\PessoaFisica.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T03:14:19.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "D:\\Microsoft Visual Studio\\Projetos\\ZenBank\\ZenBank\\Models\\Menu.cs",
+              "RelativeDocumentMoniker": "ZenBank\\Models\\Menu.cs",
+              "ToolTip": "D:\\Microsoft Visual Studio\\Projetos\\ZenBank\\ZenBank\\Models\\Menu.cs",
+              "RelativeToolTip": "ZenBank\\Models\\Menu.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowDYAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T02:53:02.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "TipoTransacao.cs",
               "DocumentMoniker": "D:\\Microsoft Visual Studio\\Projetos\\ZenBank\\ZenBank\\Models\\Enums\\TipoTransacao.cs",
               "RelativeDocumentMoniker": "ZenBank\\Models\\Enums\\TipoTransacao.cs",
@@ -65,20 +116,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "LogExtrato.cs",
               "DocumentMoniker": "D:\\Microsoft Visual Studio\\Projetos\\ZenBank\\ZenBank\\Models\\Services\\LogExtrato.cs",
               "RelativeDocumentMoniker": "ZenBank\\Models\\Services\\LogExtrato.cs",
               "ToolTip": "D:\\Microsoft Visual Studio\\Projetos\\ZenBank\\ZenBank\\Models\\Services\\LogExtrato.cs",
               "RelativeToolTip": "ZenBank\\Models\\Services\\LogExtrato.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-23T04:56:05.76Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ContaCorrente.cs",
               "DocumentMoniker": "D:\\Microsoft Visual Studio\\Projetos\\ZenBank\\ZenBank\\Models\\ContaCorrente.cs",
               "RelativeDocumentMoniker": "ZenBank\\Models\\ContaCorrente.cs",
@@ -91,13 +142,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Cliente.cs",
               "DocumentMoniker": "D:\\Microsoft Visual Studio\\Projetos\\ZenBank\\ZenBank\\Models\\Cliente.cs",
               "RelativeDocumentMoniker": "ZenBank\\Models\\Cliente.cs",
               "ToolTip": "D:\\Microsoft Visual Studio\\Projetos\\ZenBank\\ZenBank\\Models\\Cliente.cs",
               "RelativeToolTip": "ZenBank\\Models\\Cliente.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-03T02:03:40.859Z",
               "EditorCaption": ""
@@ -110,7 +161,7 @@
               "RelativeDocumentMoniker": "ZenBank\\Program.cs",
               "ToolTip": "D:\\Microsoft Visual Studio\\Projetos\\ZenBank\\ZenBank\\Program.cs",
               "RelativeToolTip": "ZenBank\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAxAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-03T01:21:20.189Z",
               "EditorCaption": ""

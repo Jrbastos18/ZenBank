@@ -6,8 +6,11 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        Conta conta = new Conta(123, new Cliente(), 001, 0000001, 500, DateTime.Now, 200);
+        Conta conta = new Conta(123, new Cliente("Rua 1", "99999999"), 001, 0000001, 1000, DateTime.Now, 500);
 
+        Menu menu = new Menu();
+
+        menu.MenuPrincipal();
 
         Console.WriteLine("Quanto deseja sacar?");
         double valor = double.Parse(Console.ReadLine());
@@ -18,7 +21,7 @@ internal class Program
         valor = double.Parse(Console.ReadLine());
         conta.Depositar(valor);
 
-        Console.WriteLine("Quanto deseja sacar?");
+        Console.WriteLine("\nQuanto deseja sacar?");
         valor = double.Parse(Console.ReadLine());
         conta.Sacar(valor);
 

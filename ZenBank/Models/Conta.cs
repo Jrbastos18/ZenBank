@@ -36,23 +36,23 @@ public class Conta
     {
         if (valor > Saldo)
         {
-            Console.WriteLine("Saldo indisponível");
+            Console.WriteLine("\nSaldo indisponível");
         }
         else if (valor <= 0)
         {
-            Console.WriteLine("Não é possível sacar valor negativo ou que seja 0!");
+            Console.WriteLine("\nNão é possível sacar valor negativo ou que seja 0!");
         }
         else
         {
             if (valor > LimiteSaque)
             {
-                Console.WriteLine($"Não é possível sacar além do seu limite! Seu limite atual para saque é: {LimiteSaque.ToString("C2")}");
+                Console.WriteLine($"\nNão é possível sacar além do seu limite! Seu limite atual para saque é: {LimiteSaque.ToString("C2")}");
             }
             else
             {
                 Saldo -= valor;
-                Console.WriteLine($"{valor.ToString("C2")} sacado com sucesso!");
-                Console.WriteLine("Seu novo saldo é de: " + Saldo.ToString("C2"));
+                Console.WriteLine($"\n{valor.ToString("C2")} sacado com sucesso!");
+                Console.WriteLine("\nSeu novo saldo é de: " + Saldo.ToString("C2"));
                 LogExtratos.Add(new LogExtrato(valor, DateTime.Now, Saldo, TipoTransacao.Saque));
             }
         }
@@ -62,15 +62,17 @@ public class Conta
     {
         Saldo += valor;
         LogExtratos.Add(new LogExtrato(valor, DateTime.Now, Saldo, TipoTransacao.Deposito));
-        Console.WriteLine($"Depósito efetuado com sucesso! Seu novo saldo é de: {Saldo.ToString("C2")}");
+        Console.WriteLine($"\nDepósito efetuado com sucesso! Seu novo saldo é de: {Saldo.ToString("C2")}");
     }
 
     public void Extrato()
     {
-        Console.WriteLine("Escolha uma opção para extrato:");
-        Console.WriteLine("1 ----------------- Saques");
-        Console.WriteLine("2 ----------------- Depositos");
-        Console.WriteLine("3 ----------------- Ambos ");
+        Console.Clear();
+        Console.WriteLine("\nEscolha uma opção para extrato");
+        Console.WriteLine("Saques ---------- 1");
+        Console.WriteLine("Depósitos ------- 2");
+        Console.WriteLine("Ambos ----------- 3");
+        Console.WriteLine();
         int opc = int.Parse(Console.ReadLine());
 
         if (opc < 1 || opc > 3)
