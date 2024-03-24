@@ -1,9 +1,9 @@
 ﻿namespace ZenBank.Models;
 public class PessoaJuridica : Cliente
 {
-    public string RazaoSocial { get; set; }
-    public string NomeFantasia { get; set; }
-    private string Cnpj { get; set; }
+    public string RazaoSocial { get; set; } = string.Empty;
+    public string NomeFantasia { get; set; } = string.Empty;
+    private string Cnpj { get; set; } = string.Empty;
     private DateTime DataAbertura { get; set; }
 
     public PessoaJuridica(string razaoSocial, string nomeFantasia, string cnpj, DateTime dataAbertura, string endereco, string telefone) : base(endereco, telefone)

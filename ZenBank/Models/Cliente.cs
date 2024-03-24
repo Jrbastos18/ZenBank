@@ -8,8 +8,8 @@ namespace ZenBank.Models;
 public class Cliente
 {
     private int Id { get; set; }
-    public string Endereco { get; set; }
-    public string Telefone { get; set; }
+    public string Endereco { get; set; } = string.Empty;
+    public string Telefone { get; set; } = string.Empty;
     public DateTime DataCadastro { get; set; }
 
     public Cliente(string endereco, string telefone)

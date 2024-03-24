@@ -34,7 +34,7 @@ public class Conta
         LimiteSaque = limiteSaque;
     }
 
-    public void Sacar(double valor)
+    public void Sacar(double valor, double limiteSaque)
     {
         if (valor > Saldo)
         {
@@ -46,9 +46,9 @@ public class Conta
         }
         else
         {
-            if (valor > LimiteSaque)
+            if (valor > limiteSaque)
             {
-                Console.WriteLine($"\nNão é possível sacar além do seu limite! Seu limite atual para saque é: {LimiteSaque.ToString("C2")}");
+                Console.WriteLine($"\nNão é possível sacar além do seu limite! Seu limite atual para saque é: {limiteSaque.ToString("C2")}");
             }
             else
             {
@@ -70,10 +70,10 @@ public class Conta
     public void Extrato()
     {
         Console.Clear();
-        Console.WriteLine("\nEscolha uma opção para extrato");
-        Console.WriteLine("Saques ---------- 1");
-        Console.WriteLine("Depósitos ------- 2");
-        Console.WriteLine("Ambos ----------- 3");
+        Console.WriteLine("\nEscolha uma opção para extrato: ");
+        Console.WriteLine("1. Saques");
+        Console.WriteLine("2. Depósitos");
+        Console.WriteLine("3. Ambos");
         Console.WriteLine();
         int opc = int.Parse(Console.ReadLine());
 

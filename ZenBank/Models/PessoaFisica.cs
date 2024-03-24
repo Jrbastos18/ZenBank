@@ -2,7 +2,7 @@
 public class PessoaFisica : Cliente
 {
     public string Nome { get; set; } = string.Empty;
-    private string Cpf { get; set;} 
+    private string Cpf { get; set;} = string.Empty;
     private DateTime DataNascimento { get; set; } 
 
     public PessoaFisica(string nome, string cpf, DateTime dataNascimento, string endereco, string telefone) : base(endereco, telefone)

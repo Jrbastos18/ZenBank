@@ -29,7 +29,7 @@ public class Menu
     {
         Console.Clear();
         Console.WriteLine("Menu de Cadastro");
-        Console.WriteLine("------------");
+        Console.WriteLine("----------------");
         Console.WriteLine("\n1. Pessoa Física");
         Console.WriteLine("2. Pessoa Jurídica");
         Console.WriteLine("3. Voltar ao Menu Principal");
@@ -139,6 +139,7 @@ public class Menu
                 Console.WriteLine();
                 Console.WriteLine(cc);
                 Console.WriteLine();
+                MenuConta(cc);
 
                 break;
             case 2:
@@ -147,6 +148,100 @@ public class Menu
                 MenuPrincipal();
                 break;
             case 4:
+                break;
+            default:
+                Console.WriteLine("Opção inválida!");
+                break;
+        }
+    }
+
+    public void MenuConta(Conta conta)
+    {
+        Console.Clear();
+        Console.WriteLine("Menu da Conta");
+        Console.WriteLine("----------------");
+        Console.WriteLine("\n1. Sacar");
+        Console.WriteLine("2. Depositar");
+        Console.WriteLine("3. Extrato");
+        Console.WriteLine("4. Informações do cliente e conta");
+        Console.WriteLine("5. Menu Principal");
+        Console.WriteLine("6. Sair");
+        Console.WriteLine();
+        Console.Write("Entre com uma opção (1 - 5): ");
+        int opcao = int.Parse(Console.ReadLine());
+        double valor;
+        char mc;
+
+        switch (opcao)
+        {
+            case 1:
+                Console.Clear();
+                Console.WriteLine("Quanto deseja sacar?");
+                valor = double.Parse(Console.ReadLine());
+                conta.Sacar(valor, conta.LimiteSaque);
+                Console.WriteLine();
+                Console.WriteLine("Deseja voltar para o menu da conta (S/N)?");
+                mc = char.Parse(Console.ReadLine().ToUpper());
+                if (mc != 'S' && mc != 'N')
+                {
+                    Console.WriteLine("Opção inválida!");
+                }
+                else if (mc == 'S')
+                {
+                    MenuConta(conta);
+                }
+                break;
+            case 2: 
+                Console.Clear();
+                Console.WriteLine("Quanto deseja depositar?");
+                valor = double.Parse(Console.ReadLine());
+                conta.Depositar(valor);
+                Console.WriteLine();
+                Console.WriteLine("Deseja voltar para o menu da conta (S/N)?");
+                mc = char.Parse(Console.ReadLine().ToUpper());
+                if (mc != 'S' && mc != 'N')
+                {
+                    Console.WriteLine("Opção inválida!");
+                }
+                else if (mc == 'S')
+                {
+                    MenuConta(conta);
+                }
+                break;
+            case 3:
+                Console.Clear();
+                conta.Extrato();
+                Console.WriteLine();
+                Console.WriteLine("Deseja voltar para o menu da conta (S/N)?");
+                mc = char.Parse(Console.ReadLine().ToUpper());
+                if (mc != 'S' && mc != 'N')
+                {
+                    Console.WriteLine("Opção inválida!");
+                }
+                else if (mc == 'S')
+                {
+                    MenuConta(conta);
+                }
+                break;
+            case 4:
+                Console.Clear();
+                Console.WriteLine(conta);
+                Console.WriteLine();
+                Console.WriteLine("Deseja voltar para o menu da conta (S/N)?");
+                mc = char.Parse(Console.ReadLine().ToUpper());
+                if (mc != 'S' && mc != 'N')
+                {
+                    Console.WriteLine("Opção inválida!");
+                }
+                else if (mc == 'S')
+                {
+                    MenuConta(conta);
+                }
+                break;
+            case 5:
+                MenuPrincipal();
+                break;
+            case 6:
                 break;
             default:
                 Console.WriteLine("Opção inválida!");
