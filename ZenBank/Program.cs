@@ -6,7 +6,7 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        Conta conta = new Conta(123, new Cliente("Rua 1", "99999999"), 001, 0000001, 1000, DateTime.Now, 500);
+        Conta conta = new Conta(new Cliente("Rua 1", "99999999"), 001, 0000001, 500);
 
         Menu menu = new Menu();
 

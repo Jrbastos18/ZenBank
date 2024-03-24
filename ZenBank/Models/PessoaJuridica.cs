@@ -3,14 +3,25 @@ public class PessoaJuridica : Cliente
 {
     public string RazaoSocial { get; set; }
     public string NomeFantasia { get; set; }
-    private int Cnpj { get; set; }
+    private string Cnpj { get; set; }
     private DateTime DataAbertura { get; set; }
 
-    public PessoaJuridica(string endereco, string telefone, string razaoSocial, string nomeFantasia, int cnpj, DateTime dataAbertura) : base(endereco, telefone)
+    public PessoaJuridica(string razaoSocial, string nomeFantasia, string cnpj, DateTime dataAbertura, string endereco, string telefone) : base(endereco, telefone)
     {
         RazaoSocial = razaoSocial;
         NomeFantasia = nomeFantasia;
         Cnpj = cnpj;
         DataAbertura = dataAbertura;
+    }
+
+    public override string ToString()
+    {
+        return "\nRazão Social: " + RazaoSocial
+            + "\nNome Fantasia: " + NomeFantasia
+            + "\nCNPJ: " + Cnpj
+            + "\nData de abertura: " + DataAbertura.ToString("dd/MM/yyyy")
+            + "\nEndereco: " + Endereco
+            + "\nTelefone: " + Telefone
+            + "\nData de cadastro: " + DataCadastro.ToString("dd/MM/yyyy HH:mm:ss");
     }
 }

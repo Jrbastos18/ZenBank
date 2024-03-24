@@ -1,14 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ZenBank.Models.Services;
-
-namespace ZenBank.Models;
+﻿namespace ZenBank.Models;
 class ContaCorrente : Conta
 {
-    public ContaCorrente(int id, Cliente titular, int agencia, int numeroDaConta, double saldo, DateTime dataAbertura, double limiteSaque) : base(id, titular, agencia, numeroDaConta, saldo, dataAbertura, limiteSaque)
+    public ContaCorrente(Cliente titular, int agencia, double saldo, double limiteSaque) : base(titular, agencia, saldo, limiteSaque)
     {
+    }
+
+    public override string ToString()
+    {
+        return "\nAgencia: " + Agencia
+            + "\nConta corrente: " + NumeroDaConta
+            + "\nSaldo: " + Saldo.ToString("C2")
+            + "\nLimite de saque: " + LimiteSaque.ToString("C2")
+            + "\nData de abertura: " + DataAbertura.ToString("dd/MM/yyyy HH:mm:ss")
+            + "\n\nTitular: " + Titular;
     }
 }

@@ -21,14 +21,16 @@ public class Conta
     public double LimiteSaque { get; set; }
     public List<LogExtrato> LogExtratos { get; set; } = new List<LogExtrato>();
 
-    public Conta(int id, Cliente titular, int agencia, int numeroDaConta, double saldo, DateTime dataAbertura, double limiteSaque)
+    public Conta(Cliente titular, int agencia, double saldo, double limiteSaque)
     {
-        Id = id;
+        Random randId = new Random();
+        Random randConta = new Random();
+        Id = randId.Next();
         Titular = titular;
         Agencia = agencia;
-        NumeroDaConta = numeroDaConta;
+        NumeroDaConta = randConta.Next(1,int.MaxValue);
         Saldo = saldo;
-        DataAbertura = dataAbertura;
+        DataAbertura = DateTime.Now;
         LimiteSaque = limiteSaque;
     }
 

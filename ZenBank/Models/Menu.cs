@@ -28,7 +28,7 @@ public class Menu
     public void MenuCadastro()
     {
         Console.Clear();
-        Console.WriteLine("Cadastro");
+        Console.WriteLine("Menu de Cadastro");
         Console.WriteLine("------------");
         Console.WriteLine("\n1. Pessoa Física");
         Console.WriteLine("2. Pessoa Jurídica");
@@ -47,6 +47,33 @@ public class Menu
                 string cpf = Console.ReadLine();
                 Console.Write("Data de nascimento: ");
                 DateTime nascimento = DateTime.Parse(Console.ReadLine());
+                Console.Write("Endereço: ");
+                string endereco = Console.ReadLine();
+                Console.Write("Telefone: ");
+                string telefone = Console.ReadLine();
+
+                Cliente pf = new PessoaFisica(nome, cpf, nascimento, endereco, telefone);
+                Console.Clear();
+                Console.WriteLine("Cadastro efetuado com sucesso!");
+                Console.WriteLine();
+                Console.WriteLine(pf);
+                Console.WriteLine();
+                Console.WriteLine("Deseja abrir uma conta? S/N");
+                char abrirConta = char.Parse(Console.ReadLine().ToUpper());
+                switch (abrirConta)
+                {
+                    case 'S':
+                        MenuAberturaConta(pf);
+                        break;
+                    case 'N':
+                        MenuPrincipal();
+                        break;
+                    default:
+                        Console.Write("Opção inválida!");
+                        break;
+                }
+
+
                 break; 
             case 2:
                 Console.Write("Razão Social: ");
@@ -57,6 +84,64 @@ public class Menu
                 string cnpj = Console.ReadLine();
                 Console.Write("Data de abertura: ");
                 DateTime dataAbertura = DateTime.Parse(Console.ReadLine());
+                Console.Write("Endereço: ");
+                string enderecoJuridico = Console.ReadLine();
+                Console.Write("Telefone: ");
+                string telefoneJuridico = Console.ReadLine();
+
+                Cliente pj = new PessoaJuridica(razaoSocial, nomeFantasia, cnpj, dataAbertura, enderecoJuridico, telefoneJuridico);
+                Console.Clear();
+                Console.WriteLine("Cadastro efetuado com sucesso!");
+                Console.WriteLine();
+                Console.WriteLine(pj);
+                break;
+            case 3:
+                MenuPrincipal();
+                break;
+            case 4:
+                break;
+            default:
+                Console.WriteLine("Opção inválida!");
+                break;
+        }
+    }
+
+    public void MenuAberturaConta(Cliente titular)
+    {
+        Console.Clear();
+        Console.WriteLine("Menu de Abertura de Conta");
+        Console.WriteLine("--------------------------");
+        Console.WriteLine("\n1. Conta Corrente");
+        Console.WriteLine("2. Conta Poupança (Ainda não criado 24/03/2024)");
+        Console.WriteLine("3. Voltar ao Menu Principal");
+        Console.WriteLine("4. Sair");
+        Console.WriteLine();
+        Console.Write("Entre com uma opção (1 - 4): ");
+        int opcao = int.Parse(Console.ReadLine());
+
+        switch (opcao)
+        {
+            case 1:
+                Console.Clear();
+                Console.WriteLine("Cadastro de Conta Corrente");
+                Console.WriteLine("--------------------------");
+                Console.Write("\nAgencia: ");
+                int ag = int.Parse(Console.ReadLine());
+                Console.Write("Saldo inicial: ");
+                double saldoInicial = double.Parse(Console.ReadLine());
+                Console.Write("Limite de saque: ");
+                double limiteSaque = double.Parse(Console.ReadLine());
+
+                Conta cc = new ContaCorrente(titular, ag, saldoInicial, limiteSaque);
+
+                Console.Clear();
+                Console.WriteLine("\nConta corrente criada com sucesso!");
+                Console.WriteLine();
+                Console.WriteLine(cc);
+                Console.WriteLine();
+
+                break;
+            case 2:
                 break;
             case 3:
                 MenuPrincipal();
